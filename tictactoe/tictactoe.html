@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+
+<body onload="reset()">
+    <section>
+        <h1 class="gametitle">Tic Tac Toe</h1>
+        <div class="gamecontainer">
+            <button data-cell-index="0" id="0" class="cell" onclick="clicked(0) "></button>
+            <button data-cell-index="1" id="1" class="cell" onclick="clicked(1) "></button>
+            <button data-cell-index="2" id="2" class="cell" onclick="clicked(2) "></button>
+            <button data-cell-index="3" id="3" class="cell" onclick="clicked(3) "></button>
+            <button data-cell-index="4" id="4" class="cell" onclick="clicked(4) "></button>
+            <button data-cell-index="5" id="5" class="cell" onclick="clicked(5) "></button>
+            <button data-cell-index="6" id="6" class="cell" onclick="clicked(6) "></button>
+            <button data-cell-index="7" id="7" class="cell" onclick="clicked(7) "></button>
+            <button data-cell-index="8" id="8" class="cell" onclick="clicked(8) "></button>
+        </div>
+        <h2 class="gamestatus "></h2>
+        <button class="gamerestart " onclick="reset() ">Restart Game</button>
+    </section>
+</body>
+
+</html>
